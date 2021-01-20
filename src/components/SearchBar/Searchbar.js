@@ -11,6 +11,7 @@ export default class Searchbar extends Component {
     this.setState({ query: currentTarget.value });
   };
 
+
   handleSubmit = e => {
     e.preventDefault();
 
